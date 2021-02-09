@@ -21,7 +21,7 @@ Custom | Table
 Item in table | Item in table
 Another item | Last item
 
-```
+```vhdl
 -- (this is a VHDL comment)
 /*
     this is a block comment (VHDL-2008)
