@@ -1,5 +1,7 @@
 # Lab 01-gates
 
+**[GitHub repository](https://github.com/mkousal/Digital-electronics-1)**
+
 ## De Morgan laws
 ### Function table
 
