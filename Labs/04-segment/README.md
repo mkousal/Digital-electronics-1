@@ -3,7 +3,7 @@
 ## Seven-segment display connection
 Display is connected to FPGA through 8 PNP transistors, they are connected to ANx pins. Display is common anode.
 
-| **Display pin** | **FPGA register name** | **FPGA package pin** |
+| **Segment/anode pin** | **FPGA register name** | **FPGA package pin** |
 | :-: | :-: | :-: |
 | CA | IO_L24N_T3_A00_D16_14 | T10 |
 | CB | IO_25_14 | R10 |
@@ -35,7 +35,7 @@ Display is connected to FPGA through 8 PNP transistors, they are connected to AN
 | 6 | 0110 | 1 | 1 | 0 | 0 | 0 | 0 | 0 |
 | 7 | 0111 | 0 | 0 | 0 | 1 | 1 | 1 | 1 |
 | 8 | 1000 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 9 | 1001 | 0 | 0 | 0 | 1 | 1 | 0 | 0 |
+| 9 | 1001 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | A | 1010 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
 | b | 1011 | 1 | 1 | 0 | 0 | 0 | 0 | 0 |
 | C | 1100 | 0 | 1 | 1 | 0 | 0 | 0 | 1 |
